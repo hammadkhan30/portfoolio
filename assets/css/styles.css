@@ -1,0 +1,69 @@
+#Initial {
+  width: 100%;
+  height: 100vh;
+  background: url("../../assets/img/sun_9-wallpaper-3840x2160.jpg") center / cover no-repeat;
+}
+
+#name {
+  padding-top: 200px;
+  font-family: Amita, cursive;
+  height: 349px;
+  margin: 0px;
+}
+
+#byline {
+  font-size: 22px;
+  font-family: Amita, cursive;
+}
+
+#navi {
+  padding: 1px;
+}
+
+#intro {
+  padding: 200px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  font-family: Amita, cursive;
+}
+
+#bio {
+  font-family: Amita, cursive;
+  font-size: 20px;
+}
+
+#imggg {
+  width: 300px;
+  height: 300px;
+  margin-top: 100px;
+  margin-bottom: 55px;
+  margin-right: 57px;
+  margin-left: -70px;
+}
+
+@media (max-width: 400px) {
+  #second {
+    flex-flow: column;
+  }
+}
+
+@media (max-width: 400px) {
+  #imggg {
+    margin-left: 23px;
+    margin-right: 0px;
+  }
+}
+
+@media (min-width: 300px) {
+  .h1, h1 {
+    margin-left: 15px;
+  }
+}
+
+@media (min-width: 300px) {
+  p {
+    margin-left: 15px;
+  }
+}
+
